@@ -40,13 +40,14 @@ h2 {
     text-align: center;
     margin: 0 auto;
     background-color: white;
-    width: 95%;
 }
 .figure__div figcaption {
     padding: 1rem;
 }
 .figure__img {
-    max-width: 100%;
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 /* - List Section - */
