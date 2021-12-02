@@ -1,0 +1,67 @@
+/* Globals */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #333;
+    background-color: #efefef;
+}
+h1, h2 {
+    text-align: center;
+    margin: 3rem auto;
+}
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 20px;
+}
+/* Utilities */
+.italic {
+    font-style: italic;
+    max-width: 30rem;
+    margin: 0 auto;
+}
+.bold {
+    font-weight: bold;
+}
+.text-center {
+    text-align: center;
+}
+.container {
+    width: 90%;
+}
+
+/* BEM */
+/* - Figure - */
+.figure__div {
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    width: 95%;
+}
+.figure__div figcaption {
+    padding: 1rem;
+}
+.figure__img {
+    max-width: 100%;
+}
+
+/* - List Section - */
+.info__section {
+    margin: 0 1rem;
+}
+.info__section ul {
+    max-width: 30rem;
+    line-height: 1.8;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+}
+.info__section ul > li {
+    margin: 1.5rem;
+}
+.link:visited {
+    color: #74638f;
+}
